@@ -7,10 +7,10 @@ import { StyleSheet, Text, View, Button } from "react-native";
 import WebScreen from "./WebScreen";
 
 const AppNavigator = createStackNavigator({
-    Home: {screen: HomeScreen},
+    Inicio: {screen: HomeScreen},
     Web: {screen: WebScreen}
   },
-  { initialRouteName: "Home" }
+  { initialRouteName: "Inicio" }
 );
 
 export default createAppContainer(AppNavigator);
